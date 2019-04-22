@@ -1,0 +1,47 @@
+header{
+  width: 100%;
+  height: 10%;
+
+  border-bottom: 1px solid lightgrey;
+
+  display: flex;
+  justify-content: space-around;
+
+  .logo{
+    width: 35%;
+    height: 100%;
+
+    display: flex;
+    @include myflex-center;
+  }
+
+  .menu{
+    width: 65%;
+    height: 100%;
+
+    display: flex;
+    @include myflex-center;
+
+    color: $principalColor;
+    letter-spacing: 1px;
+
+    ul{
+      list-style-type: none;
+
+      display: flex;
+
+      li{
+        padding: 15px;
+      }
+    }
+
+    i.fas.fa-sort-down{
+      padding-left: 3px;
+    }
+  }
+
+  img{
+    width: 240px;
+    height: 30px;
+  }
+}
