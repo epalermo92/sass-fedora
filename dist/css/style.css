@@ -29,21 +29,21 @@
 
 @-webkit-keyframes slider {
   0% {
-    left: 0;
+    right: 0;
   }
 
   100% {
-    left: 100%;
+    right: 100%;
   }
 }
 
 @keyframes slider {
   0% {
-    left: 0;
+    right: 0;
   }
 
   100% {
-    left: 100%;
+    right: 100%;
   }
 }
 
@@ -57,7 +57,7 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
-  z-index: 100;
+  z-index: 2000;
 }
 
 header .logo {
@@ -148,16 +148,41 @@ header img {
 .carousel-menu .countries {
   width: 100%;
   height: 15%;
-  background-color: black;
-  opacity: 0.3;
+  padding: 10px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 0;
   z-index: 100;
 }
 
+.carousel-menu .countries .left {
+  width: 20%;
+  height: 100%;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.carousel-menu .countries .flags {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carousel-menu .countries .flags img {
+  border-radius: 3px;
+  height: 30px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
 .about {
   width: 100%;
   height: 100%;
+  background-color: white;
   display: flex;
 }
 
@@ -193,6 +218,13 @@ header img {
   padding: 10px 15px;
   width: 33%;
   min-width: 160px;
+}
+
+.careers {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg");
+  background-size: cover;
 }
 
 @media screen and (max-width: 830px) {

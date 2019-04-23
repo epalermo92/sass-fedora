@@ -7,7 +7,7 @@ function carousel(){
 
     activeIndex++;
 
-    if (activeIndex > 1) {
+    if (activeIndex > carouselImgs.length - 1) {
       activeIndex = 0;
     }
 
