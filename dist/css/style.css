@@ -222,9 +222,96 @@ header img {
 
 .careers {
   width: 100%;
-  height: 100%;
+  height: 80%;
   background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg");
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.careers .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.careers .text h2 {
+  color: #d70f64;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+.careers .text p {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 0 35px;
+}
+
+.careers .text button {
+  background-color: #d70f64;
+  border-color: #d70f64;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  width: 33%;
+  min-width: 160px;
+}
+
+.press {
+  width: 100%;
+  height: 80%;
+  background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_tuna.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.press .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.press .text h2 {
+  color: #d70f64;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+.press .text p {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 0 35px;
+}
+
+.press .text button {
+  background-color: #d70f64;
+  border-color: #d70f64;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  width: 33%;
+  min-width: 160px;
 }
 
 @media screen and (max-width: 830px) {

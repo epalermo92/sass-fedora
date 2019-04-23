@@ -20,6 +20,51 @@ $principalColor : #d70f64;
   align-items: center;
 }
 
+@mixin my-btn{
+  background-color: $principalColor;
+  border-color: $principalColor;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+
+  width: 33%;
+  min-width: 160px;
+}
+
+@mixin parallax{
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@mixin text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  text-align: center;
+
+  h2{
+    color: $principalColor;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+    margin: 0 0 20px;
+  }
+
+  p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0 0 35px;
+  }
+}
+
 .active{
   display: block !important;
 
