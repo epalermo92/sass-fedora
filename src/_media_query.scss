@@ -1,0 +1,17 @@
+@media screen and (max-width: 830px){
+  header{
+    position: relative;
+  }
+
+  div.menu{
+    display: none;
+  }
+
+  .logo > i.fas.fa-bars{
+    display: block !important;
+
+    position: absolute;
+    left: 5%;
+    cursor: pointer;
+  }
+}

@@ -11,9 +11,19 @@ $principalColor : #d70f64;
 .container{
   width: 100vw;
   height: 100vh;
+
+  overflow-x: hidden;
 }
 
 @mixin myflex-center{
   justify-content: center;
   align-items: center;
+}
+
+.active{
+  display: block !important;
+}
+
+.hidden{
+  display: none !important;
 }
