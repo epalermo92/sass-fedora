@@ -22,8 +22,19 @@ $principalColor : #d70f64;
 
 .active{
   display: block !important;
+
+  animation-name: slider;
+  animation-duration: 0.3s;
 }
 
 .hidden{
   display: none !important;
+
+  animation-name: slider;
+  animation-duration: 0.3s;
+}
+
+@keyframes slider{
+  0%{left: 0}
+  100% {left: 100%}
 }

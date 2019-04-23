@@ -12,7 +12,7 @@ function carousel(){
     }
 
     carouselImgs.eq(activeIndex).removeClass("hidden").addClass("active");
-  },5000);
+  },10000);
 }
 
 function init(){
