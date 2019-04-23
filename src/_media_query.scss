@@ -1,10 +1,14 @@
 @media screen and (max-width: 830px){
-  header{
-    position: relative;
-  }
 
   div.menu{
     display: none;
+  }
+
+  div.logo{
+    width: 100%;
+    padding: 0;
+
+    position: relative;
   }
 
   .logo > i.fas.fa-bars{
@@ -12,6 +16,7 @@
 
     position: absolute;
     left: 5%;
+
     cursor: pointer;
   }
 }

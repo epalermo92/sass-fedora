@@ -1,0 +1,45 @@
+.about{
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  .text{
+    width: 60%;
+    height: 40%;
+
+    margin: auto;
+
+    text-align: center;
+
+    h2{
+      color : $principalColor;
+      font-size: 30px;
+      font-weight: 600;
+      letter-spacing: 1px;
+
+      margin: 0 0 20px;
+    }
+
+    p{
+      color: #333333;
+      font-size: 18px;
+      font-weight: 300;
+
+      margin: 0 0 35px;
+    }
+
+    button{
+      background-color: $principalColor;
+      border-color: $principalColor;
+      color: white;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      padding: 10px 15px;
+
+      width: 33%;
+      min-width: 160px;
+    }
+  }
+}

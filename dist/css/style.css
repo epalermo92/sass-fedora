@@ -29,6 +29,7 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
+  z-index: 100;
 }
 
 header .logo {
@@ -115,13 +116,55 @@ header img {
           transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 830px) {
-  header {
-    position: relative;
-  }
+.about {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
 
+.about .text {
+  width: 60%;
+  height: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.about .text h2 {
+  color: #d70f64;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0 0 20px;
+}
+
+.about .text p {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 0 35px;
+}
+
+.about .text button {
+  background-color: #d70f64;
+  border-color: #d70f64;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  width: 33%;
+  min-width: 160px;
+}
+
+@media screen and (max-width: 830px) {
   div.menu {
     display: none;
+  }
+
+  div.logo {
+    width: 100%;
+    padding: 0;
+    position: relative;
   }
 
   .logo > i.fas.fa-bars {
