@@ -17,10 +17,18 @@ function carousel(){
 
 function dropDown(){
   var liDrop = $("li#drop");
+  var bars = $("i.fas.fa-bars");
 
   liDrop.click(function () {
-    liDrop.children(".dropdown-menu").slideToggle();
+    $(this).children(".dropdown-menu").slideToggle();
   });
+
+  bars.click(function () {
+    var dropDownMenu = $(".drop-down-menu");
+
+    dropDownMenu.slideToggle();
+  });
+
 }
 
 function init(){

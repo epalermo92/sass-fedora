@@ -20,3 +20,9 @@
     cursor: pointer;
   }
 }
+
+@media screen and (min-width: 830px){
+  .drop-down-menu{
+    display: none !important;
+  }
+}

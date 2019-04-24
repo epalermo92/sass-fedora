@@ -85,3 +85,24 @@ header{
     height: 30px;
   }
 }
+
+.drop-down-menu{
+  width: 100%;
+  height: auto;
+
+  background-color: white;
+
+  position: absolute;
+  top: 100%;
+
+  display: none;
+
+  .item{
+    font-size: 14px;
+    color: $principalColor;
+
+    padding: 10px 15px;
+
+    cursor: pointer;
+  }
+}
