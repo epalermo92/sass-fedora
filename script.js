@@ -15,8 +15,17 @@ function carousel(){
   },10000);
 }
 
+function dropDown(){
+  var liDrop = $("li#drop");
+
+  liDrop.click(function () {
+    liDrop.children(".dropdown-menu").slideToggle();
+  });
+}
+
 function init(){
   carousel();
+  dropDown();
 }
 
 $(document).ready(init);

@@ -56,6 +56,23 @@ header{
       li{
         cursor: pointer;
       }
+
+      li#drop{
+        position: relative;
+      }
+
+      .dropdown-menu{
+        position: absolute;
+
+        background-color: white;
+        padding: 15px 20px 15px 15px;
+
+        display: none;
+
+        > div{
+          cursor: pointer;
+        }
+      }
     }
 
     i.fas.fa-sort-down{

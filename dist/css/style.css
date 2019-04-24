@@ -99,6 +99,21 @@ header .menu ul li {
   cursor: pointer;
 }
 
+header .menu ul li#drop {
+  position: relative;
+}
+
+header .menu ul .dropdown-menu {
+  position: absolute;
+  background-color: white;
+  padding: 15px 20px 15px 15px;
+  display: none;
+}
+
+header .menu ul .dropdown-menu > div {
+  cursor: pointer;
+}
+
 header .menu i.fas.fa-sort-down {
   padding-left: 3px;
 }
