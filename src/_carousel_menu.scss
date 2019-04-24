@@ -14,11 +14,13 @@
   #carousel-img1{
     background-image: url("https://www.foodora.com/wp-content/uploads/2017/08/4000x2000_parallax_4-1.jpg");
     background-size: cover;
+    background-position: center;
   }
 
   #carousel-img2{
     background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_5.jpg");
     background-size: cover;
+    background-position: center;
   }
 
   .title-carousel{
@@ -39,7 +41,7 @@
 
   .countries{
     width: 100%;
-    height: 15%;
+    height: auto;
 
     padding: 10px;
 
@@ -72,7 +74,7 @@
         border-radius: 3px;
         height: 30px;
 
-        margin-right: 8px;
+        margin: 8px;
 
         cursor: pointer;
       }
