@@ -212,6 +212,39 @@ header img {
   cursor: pointer;
 }
 
+.tooltip {
+  position: relative;
+}
+
+.tooltip > span {
+  width: 80px;
+  margin-left: -40px;
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  display: none;
+}
+
+.tooltip > span::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+.tooltip > img:hover + span {
+  display: block;
+}
+
 .about {
   width: 100%;
   height: 100%;
