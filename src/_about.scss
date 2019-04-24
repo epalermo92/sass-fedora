@@ -4,31 +4,13 @@
 
   background-color: white;
 
-  display: flex;
+  position: relative;
 
   .text{
-    width: 60%;
-    height: 40%;
-
-    margin: auto;
-
-    text-align: center;
-
-    h2{
-      color : $principalColor;
-      font-size: 30px;
-      font-weight: 600;
-      letter-spacing: 1px;
-
-      margin: 0 0 20px;
-    }
+    @include text;
 
     p{
       color: #333333;
-      font-size: 18px;
-      font-weight: 300;
-
-      margin: 0 0 35px;
     }
 
     button{

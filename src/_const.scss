@@ -31,6 +31,8 @@ $principalColor : #d70f64;
 
   width: 33%;
   min-width: 160px;
+
+  cursor: pointer;
 }
 
 @mixin parallax{
@@ -52,7 +54,7 @@ $principalColor : #d70f64;
     color: $principalColor;
     font-size: 30px;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 600;
 
     margin: 0 0 20px;
   }
@@ -62,6 +64,8 @@ $principalColor : #d70f64;
     font-size: 18px;
     font-weight: 300;
     margin: 0 0 35px;
+
+    letter-spacing: 1px;
   }
 }
 
