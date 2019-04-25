@@ -19,6 +19,25 @@
 
     cursor: pointer;
   }
+
+  .countries{
+    display: none !important;
+  }
+
+  .countries-responsive{
+    display: block;
+  }
+
+  .logo{
+    @include myflex-center;
+  }
+
+  footer{
+    height: 30%;
+    padding: 20px;
+
+    @include myflex-center;
+  }
 }
 
 @media screen and (min-width: 830px){

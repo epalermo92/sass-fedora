@@ -48,6 +48,7 @@
     display: flex;
 
     background-color: rgba(0,0,0,0.3);
+
     position: absolute;
     bottom: 0;
 
@@ -117,4 +118,50 @@
 
 .tooltip > img:hover + span{
   display: block;
+}
+
+.countries-responsive{
+  width: 100%;
+  height: auto;
+
+  color: $principalColor;
+
+  padding: 20px 15px;
+
+  display: none;
+
+  > h3{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 400;
+
+    margin: 0 0 20px;
+  }
+
+  .nations{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nat{
+    display: flex;
+    @include myflex-center;
+
+    padding: 10px 10px 10px 0;
+
+    cursor: pointer;
+
+    > span{
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  .nations  img{
+    max-width: 30px;
+    margin-right: 5px;
+
+    border-radius: 3px;
+    border: 1px solid #e7e7e7;
+  }
 }

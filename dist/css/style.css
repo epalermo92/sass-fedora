@@ -245,6 +245,46 @@ header img {
   display: block;
 }
 
+.countries-responsive {
+  width: 100%;
+  height: auto;
+  color: #d70f64;
+  padding: 20px 15px;
+  display: none;
+}
+
+.countries-responsive > h3 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+.countries-responsive .nations {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.countries-responsive .nat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 0;
+  cursor: pointer;
+}
+
+.countries-responsive .nat > span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.countries-responsive .nations img {
+  max-width: 30px;
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid #e7e7e7;
+}
+
 .about {
   width: 100%;
   height: 100%;
@@ -446,12 +486,18 @@ header img {
 }
 
 footer {
-  height: 20%;
+  height: 23%;
   width: 100%;
-  padding: 32px;
+  padding: 30px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+footer .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 footer .logo > img {
@@ -463,6 +509,12 @@ footer .logo small {
   color: #333333;
   font-size: 16px;
   font-weight: 300;
+}
+
+footer .social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 footer .social img {
@@ -498,6 +550,26 @@ footer a:hover {
     position: absolute;
     left: 5%;
     cursor: pointer;
+  }
+
+  .countries {
+    display: none !important;
+  }
+
+  .countries-responsive {
+    display: block;
+  }
+
+  .logo {
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    height: 30%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
   }
 }
 

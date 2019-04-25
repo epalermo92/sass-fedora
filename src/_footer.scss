@@ -1,12 +1,18 @@
 footer{
-  height: 20%;
+  height: 23%;
   width: 100%;
 
-  padding: 32px;
+  padding: 30px;
 
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
   .logo > img{
     width: 240px;
@@ -17,6 +23,12 @@ footer{
     color: #333333;
     font-size: 16px;
     font-weight: 300;
+  }
+
+  .social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
   .social img{
